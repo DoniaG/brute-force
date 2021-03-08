@@ -1,6 +1,4 @@
 package ma.sqli.brute.force;
-
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Scanner;
 

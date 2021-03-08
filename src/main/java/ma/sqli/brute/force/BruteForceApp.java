@@ -20,7 +20,7 @@ public class BruteForceApp {
         else if (admin.equals(username) && password.equals(mdp)) {
             return"Welcome "+admin+"!";
 
-        } else if (admin != username || password !=mdp) {
+        } else if (!admin.equals(username ) || !password.equals(mdp)) {
             for (int count=0; count<=3; count++) {
                 if (count == 0)
                 {return "User or password are incorrect.";}
